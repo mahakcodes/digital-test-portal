@@ -4,7 +4,7 @@ import StudentLogin from "./components/StudentLogin";
 
 function App() {
   return (
-    <BrowserRouter basename="/pbl_project">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<RoleSelect />} />
         <Route path="/student-login" element={<StudentLogin />} />
